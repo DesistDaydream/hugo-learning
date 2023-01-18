@@ -34,7 +34,7 @@ github_project_repo = "https://github.com/google/docsy"
 # or specify a new value if you want to reference another branch in your GitHub links
 github_branch= "master"
 
-prism_syntax_highlighting = false # 使用 Prism 在代码块上语法高亮和复制按钮
+prism_syntax_highlighting = false # 使用 Prism 在代码块上语法高亮和添加复制按钮
 
 # 搜索引擎配置
 # gcs_engine_id = "d72aa9b2712488cc3" # Google Custom Search Engine ID(谷歌自定义搜索引擎ID).注释该指令以禁用 GCS 搜索
