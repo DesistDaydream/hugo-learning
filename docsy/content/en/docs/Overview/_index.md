@@ -5,23 +5,25 @@ weight: 1
 description: >
   Here's where your user finds out if your project is for them.
 ---
+# 标题一
 
 {{% pageinfo %}}
-This is a placeholder page that shows you how to use this template site.
+这是一个占位符页面，向您展示如何使用此模板网站。
 {{% /pageinfo %}}
 
+# 标题一
 
-The Overview is where your users find out about your project. Depending on the size of your docset, you can have a separate overview page (like this one) or put your overview contents in the Documentation landing page (like in the Docsy User Guide). 
+The Overview is where your users find out about your project. Depending on the size of your docset, you can have a separate overview page (like this one) or put your overview contents in the Documentation landing page (like in the Docsy User Guide).
 
 Try answering these questions for your user in this page:
 
-## What is it?
+## 标题二 这是什么？
 
-Introduce your project, including what it does or lets you do, why you would use it, and its primary goal (and how it achieves it). This should be similar to your README description, though you can go into a little more detail here if you want.
+介绍你的项目，包括它做什么或让你做什么，你为什么要使用它，以及它的主要目标（以及它如何实现它）。这应该类似于您的 README 描述，但如果您愿意，可以在此处进行更详细的介绍。
 
-## Why do I want it?
+## 标题二 我为什么想要它？
 
-Help your user know if your project will help them. Useful information can include: 
+Help your user know if your project will help them. Useful information can include:
 
 * **What is it good for?**: What types of problems does your project solve? What are the benefits of using it?
 
@@ -35,4 +37,3 @@ Give your users next steps from the Overview. For example:
 
 * [Getting Started](/docs/getting-started/): Get started with $project
 * [Examples](/docs/examples/): Check out some example code!
-

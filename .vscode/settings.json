@@ -1,3 +1,13 @@
 {
     "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "[markdown]": {
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    },
+    "markdownlint.config": {
+        "single-h1": false,
+        "no-duplicate-header": false,
+        "no-emphasis-as-header": false,
+        "no-alt-text": false,
+        // "hard_tab": false
+    },
 }
