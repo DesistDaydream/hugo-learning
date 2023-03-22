@@ -1,15 +1,13 @@
 ---
-categories: ["Examples"]
-tags: ["test", "sample", "docs"]
-title: "Example Page"
-linkTitle: "Example Page"
+title: "Porridge Assessment"
 date: 2017-01-05
+weight: 4
 description: >
-  A short lead description about this content page. It can be **bold** or _italic_ and can be split over multiple paragraphs.
+  本节页面的简短引导描述。这里的文字也可以是 **粗体** 或 _斜体_，甚至可以分成多个段落。
 ---
 
 {{% pageinfo %}}
-This is a placeholder page. Replace it with your own content.
+这是一个占位页面。请用你自己的内容替换它。
 {{% /pageinfo %}}
 
 Text can be **bold**, _italic_, or ~~strikethrough~~. [Links](https://gohugo.io) should be blue with no underlines (unless hovered over).

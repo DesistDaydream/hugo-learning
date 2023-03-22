@@ -1,11 +1,19 @@
 # Language configuration
 
+[cn]
+title = "中文文档"
+description = "Docsy 示例站点"
+languageName ="中文"
+contentDir = "content/cn"
+weight = 2
+
 [en]
 title = "Goldydocs"
 description = "A Docsy example site"
 languageName ="English"
 # Weight used for sorting.
 weight = 1
+
 [no]
 title = "Goldydocs"
 description = "Docsy er operativsystem for skyen"
