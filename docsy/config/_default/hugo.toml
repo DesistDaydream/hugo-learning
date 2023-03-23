@@ -16,6 +16,10 @@ enableGitInfo = true
 # Comment out to enable taxonomies in Docsy
 # disableKinds = ["taxonomy", "taxonomyTerm"]
 
+# URL 生成逻辑配置
+disablePathToLower = true # 是否关闭 URL 转换为小写功能。
+uglyURLs = false # 生成的内容 URL 是否带后缀，比如 AaBb.md 会生成 aabb.html。默认情况下生成的 URL 不带后缀，即.aabb/
+
 # You can add your own taxonomies
 [taxonomies]
 tag = "tags"
