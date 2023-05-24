@@ -57,3 +57,6 @@ id = "UA-00000000-0"
 # Comment out if you don't want the "print entire section" link enabled.
 [outputs]
 section = ["HTML", "print", "RSS"]
+
+# [frontmatter]
+#   lastmod = ['lastmod', ':git', ':fileModTime', 'date', 'publishDate']
