@@ -10,7 +10,7 @@ enableMissingTranslationPlaceholders = true
 
 enableRobotsTXT = true
 
-# Will give values to .Lastmod etc.
+# 开启后，将会为 .Lastmod 等变量赋值
 enableGitInfo = true
 
 # Comment out to enable taxonomies in Docsy
@@ -57,11 +57,3 @@ id = "UA-00000000-0"
 # Comment out if you don't want the "print entire section" link enabled.
 [outputs]
 section = ["HTML", "print", "RSS"]
-
-[frontmatter]
-# 当一个文件的名称或者文件所在目录的名称包含中文时，无法显示末尾的最后编辑时间。
-date = ['date', 'publishDate', 'lastmod']
-expiryDate = ['expiryDate']
-# lastmod = [':git', 'lastmod', 'date', 'publishDate']
-lastmod = ["date", ":filename", "publishDate", "lastmod"]
-publishDate = ['publishDate', 'date']
