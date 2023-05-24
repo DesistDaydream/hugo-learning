@@ -58,5 +58,5 @@ id = "UA-00000000-0"
 [outputs]
 section = ["HTML", "print", "RSS"]
 
-# [frontmatter]
-#   lastmod = ['lastmod', ':git', ':fileModTime', 'date', 'publishDate']
+[frontmatter]
+date = ["date", ":filename", "publishDate", "lastmod"]
