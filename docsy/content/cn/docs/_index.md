@@ -15,12 +15,13 @@ menu:
 
 这部分是文档的首页
 
-对于大型文档的集合，建议在本页面标题下添加内容
-Tahis section is where the user documentation for your project lives - all the information your users need to understand and successfully use your project.
+对于大型文档的集合，建议在本页面标题下添加内容。
+
+这个部分是您项目的用户文档所在之处 —— 包括所有用户需要了解和成功使用您的项目所需的信息。
 
 - [Docsy 用户指南](https://docsy.dev/docs/)
 - [Docsy theme repo](https://github.com/google/docsy/tree/main/userguide) 在这里可以找到 docsy 的示例页面和文档
 
-Other content such as marketing material, case studies, and community updates should live in the [About](/about/) and [Community](/community/) pages.
+其他内容，如营销材料、案例研究和社区更新内容应位于[关于我们](/about/)和[社区](/community/)页面。
 
-You can learn more about how to organize your documentation (and how we organized this site) in [Organizing Your Content](https://docsy.dev/docs/best-practices/organizing-content/).
+您可以在[组织您的内容](https://docsy.dev/docs/best-practices/organizing-content/)中了解有关如何组织文档（以及我们如何组织本网站）的更多信息。
