@@ -22,17 +22,18 @@ version = "0.0"
 # point people to the main doc site.
 url_latest_version = "https://example.com"
 
-# Repository configuration (URLs for in-page links to opening issues and suggesting changes)
-github_repo = "https://github.com/google/docsy-example"
+# 存储库配置（在每个页面中打开问题和建议更改的链接的 URL 前缀）
+github_repo = "https://github.com/DesistDaydream/hugo-learning"
+# 指向相关项目仓库的可选链接。例如，您的产品代码所在的同级存储库。
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
 github_project_repo = "https://github.com/google/docsy"
 
-# Specify a value here if your content directory is not in your repo's root directory
-# github_subdir = ""
+# 如果我的内容 content 目录不在存储库的根目录中，需要在此处指定一个值
+github_subdir = "docsy"
 
 # Uncomment this if your GitHub repo does not have "main" as the default branch,
 # or specify a new value if you want to reference another branch in your GitHub links
-github_branch= "master"
+github_branch= "main"
 
 prism_syntax_highlighting = false # 使用 Prism 在代码块上语法高亮和添加复制按钮
 
