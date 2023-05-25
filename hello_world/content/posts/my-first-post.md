@@ -1,7 +1,6 @@
 ---
 title: "My First Post"
 date: 2023-01-22T16:23:04+08:00
-draft: true
 ---
 
 # 概述
