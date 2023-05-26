@@ -1,0 +1,21 @@
+{{/* 定义 main 块 */}}
+{{ define "main" }}
+这个模板渲染 docs/ 目录下的 _index.md 文件。
+
+<article>
+    <header>
+        <h1>{{ .Title }}</h1>
+    </header>
+    {{/* "{{ .Content }}" 拉取对应 _index.md 的 markdown 内容。 */}}
+    {{ .Content }}
+</article>
+
+<ul>
+    {{/* 遍历 content/docs/*.md 文件 */}}
+    {{ range .Pages }}
+    <li>
+        <a href="{{ .Permalink }}">{{ .Date.Format "2006-01-02" }} | {{ .Title }}</a>
+    </li>
+    {{ end }}
+</ul>
+{{ end }}
