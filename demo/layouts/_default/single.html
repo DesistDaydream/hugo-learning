@@ -1,3 +1,5 @@
+{{/* 定义 main 块 */}}
+{{ define "main" }}
 <!DOCTYPE html>
 <html lang="zh">
 
@@ -17,14 +19,19 @@
             {{.Content}}
         </article>
     </div>
-    {{/* 可以在这里调用 Hugo 中的变量 */}}
-    <h1>Hugo 变量展示</h1>
-    <h2>content 的 front matter 中的变量</h2>
-    <p> data 变量: {{.Date}} </p>
-    <p> lastmod 变量: {{.Lastmod}} </p>
-    <p> description 变量: {{.Description}} </p>
-    <h2>文件变量</h2>
-    <p> {{.File}} </p>
 </body>
 
 </html>
+{{ end }}
+
+{{/* 定义 footer 块 */}}
+{{ define "footer" }}
+{{/* 可以在这里调用 Hugo 中的变量 */}}
+<h1>Hugo 变量展示</h1>
+<h2>content 的 front matter 中的变量</h2>
+<p> data 变量: {{.Date}} </p>
+<p> lastmod 变量: {{.Lastmod}} </p>
+<p> description 变量: {{.Description}} </p>
+<h2>文件变量</h2>
+<p> {{.File}} </p>
+{{ end }}

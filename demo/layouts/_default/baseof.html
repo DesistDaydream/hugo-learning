@@ -1,3 +1,4 @@
+{{/* 这是一个基本模板，用来作为网站的外壳，以便让网站保持相同的风格 */}}
 <!DOCTYPE html>
 <html>
 
@@ -11,14 +12,11 @@
 </head>
 
 <body>
-    <!-- Code that all your templates share, like a header -->
-    {{ block "main" . }}
-    <!-- The part of the page that begins to differ between templates -->
-    {{ end }}
+    <!-- 引用其他模板中定义的名为 main 的块 -->
+    {{ block "main" . }}{{ end }}
 
-    {{ block "footer" . }}
-    <!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
-    {{ end }}
+    <!-- 引用其他模板中定义的名为 footer 的块 -->
+    {{ block "footer" . }}{{ end }}
 </body>
 
 </html>
