@@ -3,7 +3,6 @@
 <html>
 
 <head>
-    <p>这是所有页面的外壳模板</p>
     <meta charset="utf-8">
     <title>
         {{ block "title" . }}
@@ -13,11 +12,17 @@
 </head>
 
 <body>
+    <p> 这是所有页面的外壳模板 </p>
+    <p> 当前页面的 Kind(种类)：{{ .Kind }} </p>
+    <p> 当前内容的 Type(类型)：{{ .Type }} </p>
+    <p>------------------------------------------</p>
+
     <!-- 引用其他模板中定义的名为 main 的块 -->
     {{ block "main" . }}{{ end }}
 
     <!-- 引用其他模板中定义的名为 footer 的块 -->
     {{ block "footer" . }}{{ end }}
+    {{ block "footer1" . }}{{ end }}
 </body>
 
 </html>
