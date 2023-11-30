@@ -10,4 +10,7 @@
         "no-alt-text": false,
         // "hard_tab": false
     },
+    "[html]": {
+        "editor.formatOnSave": false
+    },
 }
