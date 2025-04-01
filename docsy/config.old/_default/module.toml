@@ -1,0 +1,15 @@
+# hugo module configuration
+
+proxy = 'https://goproxy.cn,https://goproxy.io,direct'
+
+# uncomment line below for temporary local development of module
+# replacements = "github.com/google/docsy -> ../../docsy"
+[hugoVersion]
+extended = true
+min = "0.75.0"
+[[imports]]
+path = "github.com/google/docsy"
+disable = false
+[[imports]]
+path = "github.com/google/docsy/dependencies"
+disable = false

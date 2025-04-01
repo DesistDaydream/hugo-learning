@@ -33,14 +33,14 @@ github_subdir = "docsy"
 
 # Uncomment this if your GitHub repo does not have "main" as the default branch,
 # or specify a new value if you want to reference another branch in your GitHub links
-github_branch= "main"
+github_branch = "main"
 
 prism_syntax_highlighting = false # 使用 Prism 在代码块上语法高亮和添加复制按钮
 
 # 搜索引擎配置
 # gcs_engine_id = "d72aa9b2712488cc3" # Google Custom Search Engine ID(谷歌自定义搜索引擎ID).注释该指令以禁用 GCS 搜索
 algolia_docsearch = false # Algolia 文档搜索
-offlineSearch = true # Lunr.js 离线搜索。注意：启用离线搜索需要关闭其他在线搜索
+offlineSearch = true      # Lunr.js 离线搜索。注意：启用离线搜索需要关闭其他在线搜索
 
 # User interface configuration
 [ui]
@@ -56,7 +56,7 @@ navbar_translucent_over_cover_disable = false
 sidebar_menu_compact = false
 # Set to true to hide the sidebar search box (the top nav search box will still be displayed if search is enabled)
 sidebar_search_disable = false
-sidebar_menu_foldable = true # 侧边栏菜单是否可折叠
+sidebar_menu_foldable = true   # 侧边栏菜单是否可折叠
 
 # 在每个文档的底部添加一个标题为 "Feedback" 的 H2 部分。用户点击的反馈将会作为事件发动到 Google Analytics
 # 此功能取决于 [services.googleAnalytics] 这部分设置，如果未设置 “services.googleAnalytics.id”，则该功能将被禁用。
@@ -76,36 +76,36 @@ enable = false
 [links]
 # End user relevant links. These will show up on left side of footer and in the community page if you have one.
 [[links.user]]
-  name = "User mailing list"
-  url = "https://example.org/mail"
-  icon = "fa fa-envelope"
-  desc = "Discussion and help from your fellow users"
+name = "User mailing list"
+url = "https://example.org/mail"
+icon = "fa fa-envelope"
+desc = "Discussion and help from your fellow users"
 [[links.user]]
-  name ="Twitter"
-  url = "https://example.org/twitter"
-  icon = "fab fa-twitter"
-  desc = "Follow us on Twitter to get the latest news!"
+name = "Twitter"
+url = "https://example.org/twitter"
+icon = "fab fa-twitter"
+desc = "Follow us on Twitter to get the latest news!"
 [[links.user]]
-  name = "Stack Overflow"
-  url = "https://example.org/stack"
-  icon = "fab fa-stack-overflow"
-  desc = "Practical questions and curated answers"
+name = "Stack Overflow"
+url = "https://example.org/stack"
+icon = "fab fa-stack-overflow"
+desc = "Practical questions and curated answers"
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[links.developer]]
-  name = "GitHub"
-  url = "https://github.com/google/docsy"
-  icon = "fab fa-github"
-  desc = "Development takes place here!"
+name = "GitHub"
+url = "https://github.com/google/docsy"
+icon = "fab fa-github"
+desc = "Development takes place here!"
 [[links.developer]]
-  name = "Slack"
-  url = "https://example.org/slack"
-  icon = "fab fa-slack"
-  desc = "Chat with other project developers"
+name = "Slack"
+url = "https://example.org/slack"
+icon = "fab fa-slack"
+desc = "Chat with other project developers"
 [[links.developer]]
-  name = "Developer mailing list"
-  url = "https://example.org/mail"
-  icon = "fa fa-envelope"
-  desc = "Discuss development issues around the project"
+name = "Developer mailing list"
+url = "https://example.org/mail"
+icon = "fa fa-envelope"
+desc = "Discuss development issues around the project"
 
 [taxonomy]
 # set taxonomyCloud = [] to hide taxonomy clouds

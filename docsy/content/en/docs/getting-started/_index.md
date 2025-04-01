@@ -1,12 +1,9 @@
 ---
-categories: ["Examples", "Placeholders"]
-tags: ["test","docs"]
-title: "入门指南"
-linkTitle: "入门指南"
-slug: "getting-started" # 为什么 _index 页面的 slug 没有效果呢？见 #7124 ISSUE。就算使用 url 配置指定了自定义的 URL，但是该页面的下级页面也还是带着中文的。
+title: Getting Started
+description: What does your user need to know to try your project?
+categories: [Examples, Placeholders]
+tags: [test, docs]
 weight: 2
-description: >
-  What does your user need to know to try your project?
 ---
 
 {{% pageinfo %}}
@@ -33,6 +30,6 @@ Where can your user find your project code? How can they install it (binaries, i
 
 Is there any initial setup users need to do after installation to try your project?
 
-## Try it out
+## Try it out!
 
 Can your users test their installation, for example by running a command or deploying a Hello World example?

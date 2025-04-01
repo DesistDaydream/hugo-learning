@@ -1,19 +1,17 @@
-+++
-title = "首页"
-linkTitle = "首页"
-+++
+---
+title: "首页"
+linkTitle: "首页"
+---
 
 {{< blocks/cover title="欢迎来到 Goldydocs：一个 Docsy 示例项目！" image_anchor="top" height="full" color="orange">}}
-	<div class="mx-auto">
-		<a class="btn btn-lg btn-primary mr-3 mb-4" href="{{< relref " /docs">}}">
-			了解更多 <i class="fas fa-arrow-alt-circle-right ml-2"></i>
-		</a>
-		<a class="btn btn-lg btn-secondary mr-3 mb-4" href="https://github.com/google/docsy-example">
-			下载 <i class="fab fa-github ml-2 "></i>
-		</a>
-		<p class="lead mt-5">粥的温度评估-在云端！</p>
-		{{< blocks/link-down color="info">}}
-	</div>
+<a class="btn btn-lg btn-primary me-3 mb-4" href="/docs/">
+	了解更多 <i class="fas fa-arrow-alt-circle-right ml-2"></i>
+</a>
+<a class="btn btn-lg btn-secondary mr-3 mb-4" href="https://github.com/google/docsy-example">
+	下载 <i class="fab fa-github ml-2 "></i>
+</a>
+<p class="lead mt-5">粥的温度评估-在云端！</p>
+{{< blocks/link-down color="info">}}
 {{< /blocks/cover>}}
 
 
@@ -24,8 +22,7 @@ Goldydocs 提供一个单一的 Web 用户界面，提供视图，包括粥的�
 {{% /blocks/lead %}}
 
 
-{{< blocks/section color="dark">}}
-
+{{% blocks/section color="dark" type="row" %}}
 {{% blocks/feature icon="fa-lightbulb" title="New chair metrics!" %}}
 Goldydocs 用户界面现在默认显示椅子尺寸度量。
 
@@ -33,8 +30,8 @@ Goldydocs 用户界面现在默认显示椅子尺寸度量。
 {{% /blocks/feature %}}
 
 {{% blocks/feature icon="fab fa-github" title="欢迎贡献！"
-url="https://github.com/google/docsy-example" %}}
-我们在 GitHub 上使用 [Pull Request](https://github.com/google/docsy-example/pulls) 的贡献流程。
+	url="https://github.com/google/docsy-example" %}}
+我们在 **GitHub** 上使用 [Pull Request](https://github.com/google/docsy-example/pulls) 的贡献流程。
 欢迎新用户加入！
 {{% /blocks/feature %}}
 
@@ -47,9 +44,8 @@ url="https://github.com/google/docsy-example" %}}
 
 
 {{< blocks/section>}}
-<div class="col">
-<h1 class="text-center">这是第二部分</h1>
-</div>
+这是第二部分
+{.h1 .text-center}
 {{< /blocks/section>}}
 
 
@@ -61,13 +57,13 @@ url="https://github.com/google/docsy-example" %}}
 {{% /blocks/feature %}}
 
 {{% blocks/feature icon="fab fa-github" title="欢迎贡献！"
-url="https://github.com/google/docsy-example" %}}
-我们在 GitHub 上使用 [Pull Request](https://github.com/google/docsy-example/pulls) 的贡献流程。
+	url="https://github.com/google/docsy-example" %}}
+我们在 **GitHub** 上使用 [Pull Request](https://github.com/google/docsy-example/pulls) 的贡献流程。
 欢迎新用户加入！
 {{% /blocks/feature %}}
 
 {{% blocks/feature icon="fab fa-twitter" title="在 Twitter 上关注我们!"
-url="https://twitter.com/GoHugoIO" %}}
+	url="https://twitter.com/GoHugoIO" %}}
 关于最新功能等的通知
 {{% /blocks/feature %}}
 
@@ -75,7 +71,7 @@ url="https://twitter.com/GoHugoIO" %}}
 
 
 {{< blocks/section>}}
-<div class="col-12">
+这是另一个部分
+{.h1 .text-center}
 <h1 class="text-center">这是另一个部分</h1>
-</div>
 {{< /blocks/section>}}
