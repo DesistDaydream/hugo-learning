@@ -1,5 +1,4 @@
 ---
-title: اخبار داکسی
-linkTitle: اخبار
-weight: 20
+# cSpell:disable
+title: اخبار
 ---

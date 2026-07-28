@@ -1,0 +1,83 @@
+privacy_policy = "https://policies.google.com/privacy"
+version_menu = "Releases"
+archived_version = false
+version = "0.15.0"
+github_repo = "https://github.com/google/docsy-example"
+github_project_repo = "https://github.com/google/docsy"
+github_branch = "main"
+gcs_engine_id = "d72aa9b2712488cc3"
+offlineSearch = false
+prism_syntax_highlighting = false
+mainBranchPreviewURL = "https://main--goldydocs.netlify.app/"
+btn-lg = 'class="btn btn-lg btn-{1}" role="button"'
+FA = '<i class="fa-{1} fa-{2} text-{3} px-1"></i>'
+
+[taxonomy]
+taxonomyCloud = ["tags", "categories"]
+taxonomyCloudTitle = ["Tag Cloud", "Categories"]
+taxonomyPageHeader = ["tags", "categories"]
+
+# 版权内容。默认展示在每个页面最下面中间的部分
+[copyright]
+authors = "DesistDaydream | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) |"
+from_year = 2018
+to_year = "现在"
+
+[ui]
+breadcrumb_disable = false
+navbar_logo = true
+navbar_translucent_over_cover_disable = false
+sidebar_menu_foldable = true
+sidebar_menu_compact = false
+sidebar_search_disable = false
+showLightDarkModeMenu = true
+
+[ui.feedback]
+enable = true
+yes = 'Glad to hear it! Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.'
+no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.'
+
+[ui.readingtime]
+enable = false
+
+[[links.user]]
+name = "User mailing list"
+url = "https://example.org/mail"
+icon = "fa fa-envelope"
+desc = "Discussion and help from your fellow users"
+
+[[links.user]]
+name = "X"
+url = "https://example.org/x"
+icon = "fab fa-x-twitter"
+desc = "Follow us on X to get the latest news!"
+
+[[links.user]]
+name = "Stack Overflow"
+url = "https://example.org/stack"
+icon = "fab fa-stack-overflow"
+desc = "Practical questions and curated answers"
+
+[[links.developer]]
+name = "Site info"
+url = "/site/"
+icon = "fa-solid fa-hammer"
+desc = "Site build information."
+
+[[links.developer]]
+name = "GitHub"
+url = "https://github.com/google/docsy"
+icon = "fab fa-github"
+desc = "Development takes place here!"
+
+[[links.developer]]
+name = "Slack"
+url = "https://example.org/slack"
+icon = "fab fa-slack"
+desc = "Chat with other project developers"
+
+[[links.developer]]
+name = "Developer mailing list"
+url = "https://example.org/mail"
+icon = "fa fa-envelope"
+desc = "Discuss development issues around the project"

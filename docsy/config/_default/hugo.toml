@@ -2,8 +2,8 @@ baseURL = "/"
 title = "Goldydocs"
 
 # Language settings
-contentDir = "content/cn"
-defaultContentLanguage = "cn"
+contentDir = "content/zh-cn"
+defaultContentLanguage = "zh-cn"
 defaultContentLanguageInSubdir = false
 # Useful when translating.
 enableMissingTranslationPlaceholders = true
@@ -21,7 +21,10 @@ disablePathToLower = true # 是否关闭 URL 转换为小写功能。
 uglyURLs = false          # 生成的内容 URL 是否带后缀，比如 AaBb.md 会生成 aabb.html。默认情况下生成的 URL 不带后缀，即.aabb/
 
 # 渲染网站时忽略的文件
-ignoreFiles = ["/content/cn/obsidian_template/.*"]
+ignoreFiles = ["/content/zh-cn/obsidian_template/.*"]
+
+# TODO
+
 
 # You can add your own taxonomies
 [taxonomies]

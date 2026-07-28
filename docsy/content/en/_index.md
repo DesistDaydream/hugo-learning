@@ -1,77 +1,93 @@
 ---
 title: Goldydocs
+description: Porridge temperature assessment &mdash; in the cloud!
+params:
+  body_class: td-navbar-links-all-active
 ---
 
-{{< blocks/cover title="Welcome to Goldydocs: A Docsy Example Project!" image_anchor="top" height="full" >}}
-<a class="btn btn-lg btn-primary me-3 mb-4" href="/docs/">
-  Learn More <i class="fas fa-arrow-alt-circle-right ms-2"></i>
-</a>
-<a class="btn btn-lg btn-secondary me-3 mb-4" href="https://github.com/google/docsy-example">
-  Download <i class="fab fa-github ms-2 "></i>
-</a>
-<p class="lead mt-5">Porridge temperature assessment &mdash; in the cloud!</p>
-{{< blocks/link-down color="info" >}}
-{{< /blocks/cover >}}
+{{% blocks/cover
+  title="Welcome to Goldydocs: A Docsy Example and Starter Project!"
+  height="full td-below-navbar"
+  image_anchor="top"
+%}}
 
+<!--
+  Want a cover without an image?
+  Add the following argument to the blocks/cover shortcode:
+    color="primary bg-gradient td-below-navbar"
+-->
 
-{{% blocks/lead color="primary" %}}
+<!-- prettier-ignore -->
+{{% _param description %}}
+{.display-6}
+
+<!-- prettier-ignore -->
+<div class="td-cta-buttons my-5">
+  <a {{% _param btn-lg primary %}} href="docs/">
+    Learn more
+  </a>
+  <a {{% _param btn-lg secondary %}}
+    href="{{% param github_repo %}}"
+    target="_blank" rel="noopener noreferrer">
+    Get the code
+    {{% _param FA brands github "" %}}
+  </a>
+</div>
+
+{{% blocks/link-down color="info" %}}
+
+{{% /blocks/cover %}}
+
+{{% blocks/lead color="white" %}}
+
 Goldydocs provides a single web UI providing visibility into porridge
 temperature, chair size, and bed softness metrics! You can even find out who's
 been eating **your** porridge.
 
 (Sadly, Goldydocs isn't a real project, but you can use this site as an example
 to create your own real websites with [Docsy](https://docsy.dev))
+
 {{% /blocks/lead %}}
 
+{{% blocks/section color="primary" type="row" %}}
 
-{{% blocks/section color="dark" type="row" %}}
-{{% blocks/feature icon="fa-lightbulb" title="New chair metrics!" %}}
+{{% blocks/feature title="New chair metrics!" icon="fa-lightbulb" %}}
+
 The Goldydocs UI now shows chair size metrics by default.
 
 Please follow this space for updates!
+
 {{% /blocks/feature %}}
 
+{{% blocks/feature
+  title="Contributions welcome!" icon="fab fa-github"
+  url="https://github.com/google/docsy-example"
+%}}
 
-{{% blocks/feature icon="fab fa-github" title="Contributions welcome!" url="https://github.com/google/docsy-example" %}}
-We do a [Pull Request](https://github.com/google/docsy-example/pulls) contributions workflow on **GitHub**. New users are always welcome!
-{{% /blocks/feature %}}
-
-
-{{% blocks/feature icon="fab fa-twitter" title="Follow us on Twitter!" url="https://twitter.com/docsydocs" %}}
-For announcement of latest features etc.
-{{% /blocks/feature %}}
-
-
-{{% /blocks/section %}}
-
-
-{{% blocks/section %}}
-This is the second section
-{.h1 .text-center}
-{{% /blocks/section %}}
-
-
-{{% blocks/section type="row" %}}
-
-{{% blocks/feature icon="fab fa-app-store-ios" title="Download **from AppStore**" %}}
-Get the Goldydocs app!
-{{% /blocks/feature %}}
-
-{{% blocks/feature icon="fab fa-github" title="Contributions welcome!"
-    url="https://github.com/google/docsy-example" %}}
 We do a [Pull Request](https://github.com/google/docsy-example/pulls)
 contributions workflow on **GitHub**. New users are always welcome!
+
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fab fa-twitter" title="Follow us on Twitter!"
-    url="https://twitter.com/GoHugoIO" %}}
+{{% blocks/feature
+  title="Follow us on X!" icon="fab fa-x-twitter"
+  url="https://x.com/docsydocs"
+%}}
+
 For announcement of latest features etc.
+
 {{% /blocks/feature %}}
 
 {{% /blocks/section %}}
 
+{{% blocks/section color="white" type="row text-center h1" %}}
 
-{{% blocks/section %}}
-This is the another section
-{.h1 .text-center}
+This is the second section
+
+{{% /blocks/section %}}
+
+{{% blocks/section color="secondary" type="row text-center h1" %}}
+
+This is the another section with center alignment
+
 {{% /blocks/section %}}
